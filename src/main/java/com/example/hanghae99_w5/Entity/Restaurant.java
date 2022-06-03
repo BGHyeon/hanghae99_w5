@@ -20,7 +20,7 @@ import java.util.function.Predicate;
 @Setter
 @Entity
 @NoArgsConstructor
-public class Restaurant {
+public class Restaurant extends TimeStamp {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

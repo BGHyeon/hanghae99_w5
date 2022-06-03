@@ -15,7 +15,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-public class Menu {
+public class Menu extends TimeStamp {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

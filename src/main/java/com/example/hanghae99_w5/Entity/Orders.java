@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Getter
 @Setter
 @Entity
-public class Orders {
+public class Orders extends TimeStamp {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
